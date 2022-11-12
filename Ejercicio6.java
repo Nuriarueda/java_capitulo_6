@@ -28,8 +28,7 @@ public class Ejercicio6 {
             }
         } while (!acertado && (oportunidades > 0));
         if (!acertado) {
-            System.out.println("Lo siento, no has acertado, el número que estaba pensando era el " +\
-            numeroMisterioso);
+            System.out.println("Lo siento, no has acertado, el número que estaba pensando era el " + numeroMisterioso);
         }
     }
 }
