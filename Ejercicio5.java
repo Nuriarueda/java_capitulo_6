@@ -4,17 +4,22 @@ Muestra también el máximo, el mínimo y la media de esos números. */
 
 public class Ejercicio5 {
     public static void main (String[]args) {
-        int maximo = 0;
-        int minimo = 0;
-        int media = 0;
+        int maximo = 100;
+        int minimo = 199;
         int suma = 0;
+        int n;
 
-        System.out.println("\n50 numeros aleatorios entre 100 y 199: ");
-        for (int i=0; i<50; i++) {
-            minimo = n;
+        for (int i = 0; i < 50; i++) {
+            n = (int)(Math.random()*100) + 100;
+            System.out.print(n + " ");
+            suma += n;
+            if (n < minimo) {
+                minimo = n;
+            }
+            if (n > maximo) {
+                maximo = n;
+            }
         }
-        if (n > maximo) {
-maximo = n;
-}
+        System.out.println("\nMínimo: " + minimo + "\nMáximo: " + maximo + "\nMedia: " + suma / 50 );
     }
 }
