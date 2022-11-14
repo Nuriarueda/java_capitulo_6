@@ -7,7 +7,7 @@ Para convertir un número en una cadena de caracteres podemos usar String.valueO
 
 public class Ejercicio2 {
     public static void main (String []args) {
-        System.out.println("Muestra una carta al azar de la baraja francesa");
+        System.out.println("Carta al azar de la baraja francesa");
         System.out.print("PALO: ");
         int cartas = ((int)(Math.random()*4)+1);
 

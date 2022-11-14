@@ -3,7 +3,7 @@ Se utilizará la baraja de 40 cartas: 2, 3, 4, 5, 6, 7, sota, caballo, rey y as.
 
 public class Ejercicio3 {
     public static void main (String []args) {
-        System.out.println("Muestra una carta al azar de la baraja española");
+        System.out.println("Carta al azar de la baraja española");
         System.out.print("PALO: ");
         int cartas = ((int)(Math.random()*4)+1);
 
