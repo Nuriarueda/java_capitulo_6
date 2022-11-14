@@ -49,13 +49,13 @@ public class Ejercicio3 {
                 System.out.print("7");
             break;
             case (8):
-                System.out.print("J");
+                System.out.print("Sota");
             break;
             case (9):
-                System.out.print("Q");
+                System.out.print("Caballo");
             break;
             case (10):
-            System.out.print("K");
+            System.out.print("Rey");
             break;
             default:      
         }
